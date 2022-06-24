@@ -49,6 +49,8 @@ app.get('/sec',auth,(req,res)=>{
     })
 })
 
+
+
 app.get('/login',(req,res)=>{
     res.render('login',{
         message:req.flash('success')
